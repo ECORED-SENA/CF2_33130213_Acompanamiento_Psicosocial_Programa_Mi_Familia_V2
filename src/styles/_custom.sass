@@ -10,10 +10,87 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+.mn
+  margin: 0 -3rem
+.cajon-b.arriba-derecha:before
+  height: 100%
+  left: 70%
+  background-color: #fcd9d9
+  opacity: 1
+.acordion__activo
+  background-color: #eafff1
+.titulo-edit
+  border-radius: 0 50px 50px 0
+  padding: 1rem
+  display: inline-block
+  h3
+    margin-right: 30px
+    margin-bottom: 0px
+  &.color-primario
+    background-color: $color-primario
+  &.color-secundario
+    background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones
+.card-slyder
+  position: relative
+  overflow: hidden
+  min-height: 400px
+  width: 100%
+  &:hover
+    .card-slyder__portada
+      transform: translateY(-100%)
+  &.color-primario
+    background-color: $color-primario
+  &.color-secundario
+    background-color: #f57676
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones
+  &__portada
+    transition: transform .6s
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    &.color-primario
+      background-color: $color-primario
+    &.color-secundario
+      background-color: #f57676
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+    &.color-acento-botones
+      background-color: $color-acento-botones
+  &__contenido
+    &.color-primario
+      background-color: $color-primario
+    &.color-secundario
+      background-color: $color-secundario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+    &.color-acento-botones
+      background-color: $color-acento-botones
+
+.bloque-texto-d.color-primario:before
+  opacity: .2
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #5840e2
+  opacity: 1
+  border: 0
+  background-image: url('../assets/curso/temas/tema1/flecha.svg')
+.slyder-a__bullets__item--active
+  background-color: #5840e2
