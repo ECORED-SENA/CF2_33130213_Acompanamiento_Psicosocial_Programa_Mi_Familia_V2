@@ -18,10 +18,15 @@
     transform: translateY(0px)
 .mn
   margin: 0 -3rem
-.cajon-b.arriba-derecha:before
+.cajon-b.color-primario:before
   height: 100%
   left: 70%
   background-color: #fcd9d9
+  opacity: 1
+.cajon-b.color-primario:before
+  height: 100%
+  left: 70%
+  background-color: #fff2d0
   opacity: 1
 .acordion__activo
   background-color: #eafff1
@@ -94,3 +99,98 @@
   background-image: url('../assets/curso/temas/tema1/flecha.svg')
 .slyder-a__bullets__item--active
   background-color: #5840e2
+.tarjeta-audio.color-acento-botones
+  border: 0
+  background-color: #affbd8
+.bloque-editado
+  .bloque-texto-g__img
+    width: 30%
+  .bloque-texto-g__texto
+    width: 80%
+.contenedor-img
+  &__1
+    display: flex
+    position: relative
+    border-radius: 40px 40px 0px 0px
+    background-color: #ffefef
+
+    .contenido
+      @media (min-width: $bp-max-lg)
+        margin-right: 200px
+
+    img.position
+      position: absolute
+      margin-right: -2rem
+      width: 295px
+      right: 0
+      bottom: 80%
+      transform: translateY(80%) translateX(20%)
+  &__2
+    display: flex
+    position: relative
+    border-radius: 40px 0px 40px 0px
+    background-color: #affbd8
+    .contenido
+      @media (min-width: $bp-max-lg)
+
+        margin-left: 200px
+    img.position
+      position: absolute
+      margin-left: -1rem
+      width: 295px
+      left: 0
+      bottom: 80%
+      transform: translateY(80%) translateX(-30%)
+  &__3
+    display: flex
+    position: relative
+    border-radius: 40px 0px 40px 0px
+    background-color: #f3f9ff
+    .contenido
+      @media (min-width: $bp-max-lg)
+
+        margin-left: 200px
+    img.position
+      position: absolute
+      margin-left: -1rem
+      width: 295px
+      left: 0
+      top: 80%
+      transform: translateY(-80%) translateX(-30%)
+.bloque-texto-d.color-acento-contenido:before
+  opacity: 1
+  background-color: #d7fdeb
+.tarjeta-icon
+  margin-left: 30px
+  border-radius: 20px
+  border-bottom: 2px solid #e3e3e3
+  padding: 3rem
+  position: relative
+  &__icon
+    top: 0
+    left: 0
+    transform-origin: 50%
+    position: absolute
+    width: 85px
+    transform: translateX(-50%)
+    img
+      transform-origin: 50%
+      margin: 0 auto
+
+  &__contenido
+    padding-left: 200px
+.contenido-imagen
+  position: relative
+  .cuadro-texto
+    @media (min-width: $bp-min-xl)
+      position: absolute
+      width: 50%
+      right: 0
+      transform: translateX(30%)
+
+    @media (max-width: $bp-max-lg)
+      position: relative
+.audio-editado
+  .tarjeta-audio.color-acento-botones
+    border: 0
+    background-color: #fff2d0
