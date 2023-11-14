@@ -13,8 +13,8 @@
         .col-lg-1.col-3: img(src='@/assets/curso/temas/tema1/1.svg', alt='')
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/W6Twz9GwhGE?si=UbcVZ-191-NDrPVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Caracterización y diagnóstico
     p.mb-5(data-aos='fade-right') En este apartado se conocerán los elementos técnicos, conceptuales y metodológicos propuestos para el abordaje del acompañamiento psicosocial familiar a partir de los enfoques de la modalidad Mi Familia: ecosistémico, curso de vida, interseccionalidad, apreciativo, resiliencia, entre otros.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/2.png', alt='')
