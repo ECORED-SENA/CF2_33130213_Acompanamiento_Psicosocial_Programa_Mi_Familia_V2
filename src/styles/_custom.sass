@@ -9,6 +9,11 @@
     position: absolute
     top: 51%
     right: 5%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 40%
 
 @keyframes float1
   0%
@@ -29,7 +34,7 @@
   background-color: #fff2d0
   opacity: 1
 .acordion__activo
-  background-color: #eafff1
+  background-color: #eafff1 !important
 .titulo-edit
   border-radius: 0 50px 50px 0
   padding: 1rem
@@ -103,10 +108,11 @@
   border: 0
   background-color: #affbd8
 .bloque-editado
-  .bloque-texto-g__img
-    width: 30%
-  .bloque-texto-g__texto
-    width: 80%
+  @media (min-width: $bp-min-lg)
+    .bloque-texto-g__img
+      width: 30%
+    .bloque-texto-g__texto
+      width: 80%
 .contenedor-img
   &__1
     display: flex
@@ -194,3 +200,11 @@
   .tarjeta-audio.color-acento-botones
     border: 0
     background-color: #fff2d0
+.tarjeta--gris
+  background-color: #f2f2f2
+.slyder-a__bullets__item
+  background-color: #c1ab73
+.slyder-a__bullets__item--active
+  background-color: #5841dd
+.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
+  color: white

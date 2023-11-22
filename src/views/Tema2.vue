@@ -19,7 +19,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1
             span Instrumentos de caracterización y diagnóstico
-          img(src='@/assets/curso/temas/tema2/2.svg', alt='')
+          img(src='@/assets/curso/temas/tema2/2.svg', alt='Los instrumentos de caracterización son: perfil de vulnerabilidad, mapa de pertenencia y genograma.')
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 ¿Cuál es el sentido del proceso de caracterización y diagnóstico del programa Mi Familia? 
@@ -49,12 +49,9 @@
           :audio="require('@/assets/curso/temas/tema2/1.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false")
       .col-lg-6(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2.
-          span Instrumentos de acompañamiento
         .tarjeta(style="background-color: #fff2d0 ").p-5
           SlyderA(tipo='b')
-            .row.mx-2
+            .row.mx-2.justify-content-center
               .col-lg-9.mb-4.mb-md-0
                 h4 Entidad del contratista
                 ul.lista-ul--color
@@ -82,9 +79,9 @@
                     i.fas.fa-caret-right(style="color: #f46464 ")
                     | Número de documento de identificación del profesional
 
-              .col-lg-3
+              .col-lg-3.col-6
                 img(src='@/assets/curso/temas/tema2/6.svg', alt='Texto que describa la imagen')
-            .row.mx-2
+            .row.mx-2.justify-content-center
               .col-lg-9.mb-4.mb-md-0
                 h4 Ubicación de la vivienda familiar
                 ul.lista-ul--color
@@ -103,9 +100,9 @@
                   li
                     i.fas.fa-caret-right(style="color: #f46464 ")
                     | Acceso a servicios públicos
-              .col-lg-3
+              .col-lg-3.col-6
                 img(src='@/assets/curso/temas/tema2/7.svg', alt='Texto que describa la imagen')
-            .row.mx-2
+            .row.mx-2.justify-content-center
               .col-lg-9.mb-4.mb-md-0
                 h4 Nivel individual, jefe del grupo familiar
                 ul.lista-ul--color
@@ -128,9 +125,9 @@
                   li
                     i.fas.fa-caret-right(style="color: #f46464 ")
                     | Discapacidad
-              .col-lg-3
+              .col-lg-3.col-6
                 img(src='@/assets/curso/temas/tema2/8.svg', alt='Texto que describa la imagen')
-            .row.mx-2
+            .row.mx-2.justify-content-center
               .col-lg-9.mb-4.mb-md-0
                 h4 Nivel individual, integrantes del grupo
                 ul.lista-ul--color
@@ -152,7 +149,7 @@
                   li
                     i.fas.fa-caret-right(style="color: #f46464 ")
                     | Discapacidad
-              .col-lg-3
+              .col-lg-3.col-6
                 img(src='@/assets/curso/temas/tema2/9.svg', alt='Texto que describa la imagen')
     .bloque-editado.mb-5
       .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -168,7 +165,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 3. 
+          h5 Figura 2. 
           span Información Ubicación de la vivienda familiar
         img(src='@/assets/curso/temas/tema2/11.png', alt='')
         figcaption NOTA. Tomado de ICBF (2021).
@@ -177,7 +174,7 @@
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/12.svg', alt='')
         .col-lg-11
           p.mb-0 Para este apartado, se identifican 15 preguntas con opciones de respuesta como se presenta en la figura. La persona que responde este apartado será el jefe(a) del grupo familiar, su cónyuge o cualquier otro integrante de 18 años o más. Es importante tener en cuenta que en una vivienda puede haber más de un grupo familiar, y que se debe atender y diligenciar esta información para el grupo familiar al que pertenezca el niño, niña o adolescente que generó los criterios de selección. Para el caso de Mi Familia, si está o estuvo en una modalidad priorizada de protección o de primera infancia, entre otros, de acuerdo con la Guía de focalización de la modalidad.
-    .tarjeta.p-3
+    .tarjeta.p-3(style="background-color: #e8e8e8")
         .row.justify-content-around.align-items-center
           .col-auto
             img(src="@/assets/curso/temas/tema2/13.svg").img65
@@ -185,7 +182,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1 Información ubicación de la vivienda
-                p.mb-0.text-small Se sugiere la consulta de este documento en el que se puede evidenciar con claridad todos los campos de este formulario de caracterización.
+                p.mb-0 Se sugiere la consulta de este documento en el que se puede evidenciar con claridad todos los campos de este formulario de caracterización.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://docs.google.com/document/d/1uZnIzJU0_WorBlLCKfkwbKVmgS8uBeTVv_Y0sG647Fs/edit?usp=sharing" target="_blank")
                   span.text-white.mb-0 Ver documento 
@@ -211,7 +208,7 @@
           .tarjeta.bg-white.p-3(x="85%" y="50%" numero="c")
             .h5.mb-2 Centro Poblado (CP)
             p Es un concepto creado por el DANE para la identificación de núcleos de población. Se define como una concentración de mínimo veinte (20) viviendas contiguas, vecinas o adosadas entre sí, ubicada en el área rural de un municipio o de un corregimiento departamental. Dicha concentración presenta características urbanas, tales como la delimitación de vías vehiculares y peatonales. Dentro de los centros poblados se encuentran los caseríos, inspección de policía o los corregimientos.  
-    .tarjeta.p-3.mb-5
+    .tarjeta.p-3.mb-5(style="background-color: #e7e7e7")
         .row.justify-content-around.align-items-center
           .col-auto
             img(src="@/assets/curso/temas/tema2/16.svg").img65
@@ -241,7 +238,7 @@
         .bloque-texto-d.color-primario.p-4.border-0
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular El genograma se usa como instrumento gráfico que permite conocer, recoger, registrar y exponer algunos datos de la familia, información de sus integrantes y las relaciones a lo largo de diferentes generaciones
+            h3.text-small El genograma se usa como instrumento gráfico que permite conocer, recoger, registrar y exponer algunos datos de la familia, información de sus integrantes y las relaciones a lo largo de diferentes generaciones
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 (Fernandez, Escalante, & Palmero, 2011)
@@ -313,11 +310,11 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 4. 
+          h5 Figura 3. 
           span Convenciones de las personas de la familia
-        img(src='@/assets/curso/temas/tema2/25.png', alt='')
+        img(src='@/assets/curso/temas/tema2/25.png', alt='Convenciones para la representación de los miembros de la familia en un genograma.')
         figcaption NOTA. Adaptado de Feixas, Muñoz y Montesano (2012).
-    .mn.px-5.py-4(style="background-color: #eafff1 ")
+    .mn.px-5.py-4(style="background-color: #eafff1 ").mb-5
       .row.justify-content-center.align-items-center
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/26.svg', alt='')
         .col-lg-11
@@ -325,9 +322,9 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 5. 
+          h5 Figura 4. 
           span Convenciones de relaciones o vínculos al interior de la familia
-        img(src='@/assets/curso/temas/tema2/27.png', alt='')
+        img(src='@/assets/curso/temas/tema2/27.png', alt='Convenciones para la representación de los vínculos al interior de la familia en un genograma.')
         figcaption NOTA. Adaptado de Feixas, Muñoz y Montesano (2012)
     p.mb-5(data-aos='fade-right') A manera de ejemplo, se realiza el genograma (figura 7) de una familia que actualmente está conformada por una pareja de dos hombres, uno de ellos -Camilo- tiene un hermano menor -Julián- y tras el fallecimiento de su madre -María-, Camilo queda como tutor legal de Julián y es llevado a vivir con su pareja.
     .row.justify-content-center
@@ -389,11 +386,11 @@
       br
       br
       |Para el desarrollo de la caracterización y diagnóstico de las familias, los profesionales de acompañamiento familiar cuentan con una batería de instrumentos que les permite abordar diferentes perspectivas de las familias, como lo muestra el siguiente esquema:
-    .mn(style="background-color:#b6d8e1 ").p-5
-      img(src='@/assets/curso/temas/tema2/30.svg', alt='').d-lg-block.d-none
-      img(src='@/assets/curso/temas/tema2/31.svg', alt='').d-block.d-lg-none
+    .mn(style="background-color:#b6d8e1 ").p-5.mb-5
+      img(src='@/assets/curso/temas/tema2/30.svg', alt='Descripción de un mapa de pertenencia actual y potencial.').d-lg-block.d-none
+      img(src='@/assets/curso/temas/tema2/31.svg', alt='Descripción de un mapa de pertenencia actual y potencial.').d-block.d-lg-none
     p.mb-5(data-aos='fade-right') Tanto el mapa de pertenencia actual como potencial permiten identificar el grado de satisfacción de cada uno de los integrantes de la familia con cada una de las redes identificadas y los vínculos que allí se representan, de forma que la familia y el operador podrán identificar acciones posibles para ampliar y modificar los vínculos y para resolver las situaciones problemáticas con cada una de las redes. 
-    .tarjeta.p-3.mb-5
+    .tarjeta.p-3.mb-5(style="background-color: #e7e7e7 ")
       .row.justify-content-around.align-items-center
         .col-auto
           img(src="@/assets/curso/temas/tema2/16.svg").img65

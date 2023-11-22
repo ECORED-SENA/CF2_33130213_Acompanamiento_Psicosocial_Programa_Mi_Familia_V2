@@ -25,13 +25,13 @@
         .col-lg-1.col-3: img(src='@/assets/curso/temas/tema3/2.svg', alt='')
     .row.justify-content-center.mb-2
       .col-lg-5.mb-lg-0.mb-3
-        .tarjeta-icon.h-100
+        .tarjeta-icon(style="background-color: #e7e7e7")
           .tarjeta-icon__icon: img(src='@/assets/curso/temas/tema3/3.svg', alt='')
           .tarjerta-icon__contenido
             h4 MOMENTO 1
             p Constituye un ‘rompehielo’ que busca la activación física de los integrantes de la familia, mientras presenta el tema central con una actividad lúdica.
       .col-lg-5.mb-lg-0.mb-3
-        .tarjeta-icon.h-100
+        .tarjeta-icon(style="background-color: #e7e7e7")
           .tarjeta-icon__icon: img(src='@/assets/curso/temas/tema3/4.svg', alt='')
           .tarjerta-icon__contenido
             h4 MOMENTO 2
@@ -39,13 +39,13 @@
 
     .row.justify-content-center.mb-5
       .col-lg-5.mb-lg-0.mb-3
-        .tarjeta-icon.h-100
+        .tarjeta-icon(style="background-color: #e7e7e7")
           .tarjeta-icon__icon: img(src='@/assets/curso/temas/tema3/5.svg', alt='')
           .tarjerta-icon__contenido
             h4 MOMENTO 3
             p Se desarrollan actividades para promover la reflexión de la familia sobre sus propias prácticas en relación con el tema de interés y la identificación de escenarios de transformación y desarrollo.
       .col-lg-5.mb-lg-0.mb-3
-        .tarjeta-icon.h-100
+        .tarjeta-icon(style="background-color: #e7e7e7")
           .tarjeta-icon__icon: img(src='@/assets/curso/temas/tema3/6.svg', alt='')
           .tarjerta-icon__contenido
             h4 MOMENTO 4

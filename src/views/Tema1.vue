@@ -10,7 +10,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-11.mb-lg-0.mb-3
           p.mb-0 Los fundamentos que orientan el papel, el alcance y la postura del profesional de acompañamiento familiar, frente al relacionamiento con las familias durante el desarrollo del acompañamiento psicosocial, necesitan ser comprendidos y apropiados correctamente para el buen ejercicio de su rol. #[b El siguiente video presenta la importancia de este rol:]
-        .col-lg-1.col-3: img(src='@/assets/curso/temas/tema1/1.svg', alt='')
+        .col-lg-1.col-3.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/1.svg', alt='')
     figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/W6Twz9GwhGE?si=UbcVZ-191-NDrPVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -32,34 +32,35 @@
         br
         br
         |El acompañamiento psicosocial, que se ofrece a través del programa Mi Familia, tiene en cuenta los tres enfoques principales: ecosistémico, curso de vida e interseccionalidad. Asumirlos implica reconocer ciertos elementos en la comprensión de las familias que realiza el PAF a lo largo del proceso de acompañamiento.
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta ")
-      .row(titulo="Enfoque ecosistémico")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris ")
+      .row(titulo="Enfoque ecosistémico").justify-content-center
         .col-lg-8.mb-4.mb-md-0
           p Resulta relevante reconocer que las familias no son unidades aisladas, sino que hacen parte de un contexto más amplio que incide en sus dinámicas internas. Admitir lo anterior invita a identificar las condiciones del entorno, las dinámicas y realidades de la comunidad de la cual hace parte la familia, la oferta comunitaria e institucional, y las redes sociales de apoyo, tales como la familia extensa, vecinos, amigos, grupos comunitarios, culturales o religiosos, entre otros. 
             br
             br
             |La construcción de la realidad que realiza cada familia depende de la cultura a la que pertenece, su historia, rituales, prácticas, símbolos, conversaciones y narrativas. El PAF, como actor externo a la familia, percibe la realidad de una manera distinta, por tanto, para aproximarse a la comprensión propia de la familia, es preciso escuchar los relatos que realizan sus propios integrantes y quienes los rodean, esto implica: qué se dice sobre la familia y sus integrantes, qué significado tienen las experiencias que han vivido, qué los ha marcado, cómo conversan, quiénes participan en las conversaciones cotidianas, cómo organizan su espacio, entre otros. 
-        .col-lg-4
+        .col-lg-4.col-7
           figure
             img(src='@/assets/curso/temas/tema1/4.png', alt='Texto que describa la imagen')
-      .row(titulo="Enfoque curso de vida")
+      .row(titulo="Enfoque curso de vida").justify-content-center
         .col-lg-8.mb-4.mb-md-0
           p Invita a considerar en la comprensión de las familias, la relación entre sus dinámicas y rutinas de acuerdo con las necesidades del ciclo vital de las personas que las conforman. 
             br
             br
             |Las familias se van transformando en respuesta a las características y necesidades de sus integrantes, por ejemplo, cuando nace un nuevo integrante, cuando los hijos o hijas entran a la adolescencia, o cuando salen del hogar para hacer vida independiente. En desarrollo del acompañamiento psicosocial, el PAF tendrá en cuenta las características de los integrantes y las formas cómo la familia genera dinámicas, acciones y relaciones que se adecúan a los distintos momentos del desarrollo de cada miembro; para lo anterior, observará o hará preguntas sobre el cuidado de los adultos mayores, o de las niñas y niños de la primera infancia, sobre las relaciones con los adolescentes, las relaciones entre hermanos de distintas edades, las formas de colaboración de cada integrante según sus capacidades, entre otros aspectos.
-        .col-lg-4
+        .col-lg-4.col-7
           figure
             img(src='@/assets/curso/temas/tema1/5.png', alt='Texto que describa la imagen')
-      .row(titulo="Enfoque interseccionalidad")
+      .row(titulo="Enfoque interseccionalidad").justify-content-center
         .col-lg-8.mb-4.mb-md-0
           p En el proceso de conocer y aproximarse a las familias, resulta preciso reconocer, valorar y ser sensibles a la diversidad. Lo anterior implica contemplar que cada familia es única y que algunas de ellas enfrentan dinámicas de discriminación y de exclusión social, las cuales conducen a condiciones de mayor vulnerabilidad.  
             br
             br
             |La discriminación y exclusión pueden estar motivadas por condiciones particulares de las familias, como su pertenencia étnica, la diversidad sexual o de género de alguno de sus integrantes, por situaciones de victimización por conflicto armado, por la presencia de personas con discapacidad, condiciones económicas, entre otros muchos factores.
-        .col-lg-4
+        .col-lg-4.col-7
           figure
             img(src='@/assets/curso/temas/tema1/6.png', alt='Texto que describa la imagen')
+    p.mb-5(data-aos='fade-right') Finalmente. de acuerdo con los Lineamientos Técnicos para la Inclusión y Atención de Familias. la comprensión a las familias no se da como resultado de una observación externa hecha por un experto, sino que implica una interacción constante con ellas.
     .mn.px-5.py-4(style="background-color: #fff0c4 ")
       .row.justify-content-center.align-items-center
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/7.svg', alt='')
@@ -135,11 +136,11 @@
         .bloque-texto-d.color-primario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-regular Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis.
+            h3.text-small Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 ICBF, 2020, p. 45
-      .col-lg-3: img(src='@/assets/curso/temas/tema1/14.svg', alt='')
+      .col-lg-3.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/14.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/15.png', alt='')
       .col-lg-8(data-aos="fade-left")
