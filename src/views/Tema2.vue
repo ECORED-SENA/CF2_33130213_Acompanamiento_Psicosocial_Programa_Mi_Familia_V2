@@ -29,8 +29,8 @@
         p.mb-0 Una de las características principales del proceso de caracterización y diagnóstico del programa Mi Familia y que guarda armonía con lo expuesto en el apartado anterior, es que este no es realizado por un actor externo especializado con total autonomía, sino que promueve la participación de las familias y sus integrantes. En este proceso, el profesional realiza la lectura de la realidad y del contexto de manera conjunta con la familia, asumiéndolo como un ejercicio de transformación y motivación al cambio. Esto es posible dado que, las preguntas que plantea el profesional, orientadas por los distintos instrumentos, implican un proceso reflexivo por parte de las familias. En el siguiente video se presenta con mayor claridad el proceso de caracterización y diagnóstico del programa.
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/W6Twz9GwhGE?si=vMeGiuv-mo2WT7Li" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Caracterización y diagnóstico
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2  Ficha de caracterización sociofamiliar
@@ -46,7 +46,7 @@
         img(src='@/assets/curso/temas/tema2/5.svg', alt='')
         TarjetaAudio.color-acento-botones.mb-3(
           texto="Apartados de la ficha de caracterización Sociofamiliar"
-          :audio="require('@/assets/curso/temas/tema2/1.mp3')"
+          :audio="require('@/assets/curso/temas/tema2/audio1.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false")
       .col-lg-6(data-aos="fade-left")
         .tarjeta(style="background-color: #fff2d0 ").p-5
@@ -174,7 +174,7 @@
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/12.svg', alt='')
         .col-lg-11
           p.mb-0 Para este apartado, se identifican 15 preguntas con opciones de respuesta como se presenta en la figura. La persona que responde este apartado será el jefe(a) del grupo familiar, su cónyuge o cualquier otro integrante de 18 años o más. Es importante tener en cuenta que en una vivienda puede haber más de un grupo familiar, y que se debe atender y diligenciar esta información para el grupo familiar al que pertenezca el niño, niña o adolescente que generó los criterios de selección. Para el caso de Mi Familia, si está o estuvo en una modalidad priorizada de protección o de primera infancia, entre otros, de acuerdo con la Guía de focalización de la modalidad.
-    .tarjeta.p-3(style="background-color: #e8e8e8")
+    .tarjeta.p-3(style="background-color: #e8e8e8").mb-5
         .row.justify-content-around.align-items-center
           .col-auto
             img(src="@/assets/curso/temas/tema2/13.svg").img65
@@ -199,13 +199,13 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/15.svg', alt='Texto que describa la imagen')
-          .tarjeta.bg-white.p-3(x="4.2%" y="57%" numero="a")
+          .tarjeta.bg-gris-claro.p-3(x="4.2%" y="57%" numero="a")
             .h5.mb-2 Resto
             p Se debe marcar Resto cuando la vivienda esté ubicada en el Área rural o resto municipal que, de acuerdo con el DANE, se caracteriza por la disposición dispersa de viviendas y explotaciones agropecuarias existentes en ella. No cuenta con un trazado o nomenclatura de calles, carreteras, avenidas y demás; ni tampoco dispone, por lo general, de servicios públicos y de otro tipo de facilidades propias de las áreas urbanas. 
-          .tarjeta.bg-white.p-3(x="85%" y="18%" numero="b")
+          .tarjeta.bg-gris-claro.p-3(x="85%" y="18%" numero="b")
             .h5.mb-2 Cabecera Municipal (CM)
             p Es el área geográfica que está definida por un perímetro urbano. Corresponde al lugar en donde se ubica la sede administrativa de un municipio. 
-          .tarjeta.bg-white.p-3(x="85%" y="50%" numero="c")
+          .tarjeta.bg-gris-claro.p-3(x="85%" y="50%" numero="c")
             .h5.mb-2 Centro Poblado (CP)
             p Es un concepto creado por el DANE para la identificación de núcleos de población. Se define como una concentración de mínimo veinte (20) viviendas contiguas, vecinas o adosadas entre sí, ubicada en el área rural de un municipio o de un corregimiento departamental. Dicha concentración presenta características urbanas, tales como la delimitación de vías vehiculares y peatonales. Dentro de los centros poblados se encuentran los caseríos, inspección de policía o los corregimientos.  
     .tarjeta.p-3.mb-5(style="background-color: #e7e7e7")
@@ -238,7 +238,7 @@
         .bloque-texto-d.color-primario.p-4.border-0
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-small El genograma se usa como instrumento gráfico que permite conocer, recoger, registrar y exponer algunos datos de la familia, información de sus integrantes y las relaciones a lo largo de diferentes generaciones
+            p El genograma se usa como instrumento gráfico que permite conocer, recoger, registrar y exponer algunos datos de la familia, información de sus integrantes y las relaciones a lo largo de diferentes generaciones
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 (Fernandez, Escalante, & Palmero, 2011)
@@ -359,13 +359,13 @@
       .col-lg-6
         TarjetaAudio.color-acento-botones.mb-3(
           texto="Ejemplo de Genograma"
-          :audio="require('@/assets/curso/temas/tema2/1.mp3')"
+          :audio="require('@/assets/curso/temas/tema2/audio2.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false")
     p.mb-5(data-aos='fade-right') A continuación, se explica la conformación familiar:
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ew81C_EJ1Hk?si=R2ZZ1AuXll4LEqti" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Ejemplo de un genograma
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4 Mapa de pertenencia

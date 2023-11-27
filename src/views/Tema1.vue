@@ -13,8 +13,8 @@
         .col-lg-1.col-3.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/1.svg', alt='')
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/W6Twz9GwhGE?si=UbcVZ-191-NDrPVv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Caracterización y diagnóstico
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TrZOQ8x2ZLY?si=mBE_suRUpoAP4yLO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Rol del profesional de acompañamiento familiar
     p.mb-5(data-aos='fade-right') En este apartado se conocerán los elementos técnicos, conceptuales y metodológicos propuestos para el abordaje del acompañamiento psicosocial familiar a partir de los enfoques de la modalidad Mi Familia: ecosistémico, curso de vida, interseccionalidad, apreciativo, resiliencia, entre otros.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/2.png', alt='')
@@ -136,7 +136,7 @@
         .bloque-texto-d.color-primario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3.text-small Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis.
+            p Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 ICBF, 2020, p. 45

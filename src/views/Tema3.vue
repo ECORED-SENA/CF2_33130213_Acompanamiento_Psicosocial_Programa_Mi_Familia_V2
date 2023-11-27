@@ -68,7 +68,7 @@
           .audio-editado
             TarjetaAudio.color-acento-botones.mb-3(
             texto="Apartados de la ficha de caracterización Sociofamiliar"
-            :audio="require('@/assets/curso/temas/tema2/1.mp3')"
+            :audio="require('@/assets/curso/temas/tema2/audio3.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false")
 
 
