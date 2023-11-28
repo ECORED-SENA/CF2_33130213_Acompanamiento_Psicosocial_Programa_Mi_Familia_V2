@@ -219,7 +219,7 @@
                 h4.mb-1 Guía diligenciamiento ficha de caracterización sociofamiliar de la Dirección de Familias y Comunidades.
                 p.mb-0.text-small Se sugiere la consulta de este documento para la profundización de la temática. Este recurso también se encuentra como material de apoyo.
               .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo2.pdf')" target="_blank" )
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo2.pdf')" target="_blank" )
                   span.text-white.mb-0 Ver documento 
                   i.fas.fa-link(style="color: white")
     .row.justify-content-center.mb-5
