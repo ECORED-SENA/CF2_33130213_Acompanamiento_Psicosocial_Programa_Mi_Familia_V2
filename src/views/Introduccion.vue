@@ -17,7 +17,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/intro/1.svg', alt='')
         .col-lg-11
-          p.mb-0 #[b Objetivo:] Objetivo: reconocer los procesos de cambio en las familias y aplicar las herramientas que permiten estructurar, planear y proyectar el acompañamiento psicosocial con las familias beneficiarias del programa Mi Familia.
+          p.mb-0 #[b Objetivo:] reconocer los procesos de cambio en las familias y aplicar las herramientas que permiten estructurar, planear y proyectar el acompañamiento psicosocial con las familias beneficiarias del programa Mi Familia.
 </template>
 
 <script>

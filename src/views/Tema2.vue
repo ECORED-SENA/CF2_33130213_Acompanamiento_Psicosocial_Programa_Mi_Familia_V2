@@ -40,7 +40,7 @@
         p.mb-0 La Ficha de Caracterización Sociofamiliar (FCSF) permite el registro de todas las personas que pertenecen al grupo familiar beneficiario de Mi Familia, recogiendo información individual relacionada con nombres, apellidos, edad, sexo, nivel educativo, afiliación a salud, y principal actividad que realiza cada integrante del grupo familiar, así como el registro de información grupal. Por ejemplo, acceso a servicios públicos o tipo, condición y tenencia de la vivienda, entre otros.
           br
           br
-          |Esta ficha tiene cuatro (4) apartados: 1. Información entidad contratista; 2. Información ubicación de la vivienda familiar; 3. Información del jefe de grupo familiar y 4, integrantes del grupo, tal y como lo expone la siguiente figura.
+          |Esta ficha tiene cuatro (4) apartados: 1. Información entidad contratista; 2. Información ubicación de la vivienda familiar; 3. Información del jefe de grupo familiar y 4, integrantes del grupo.
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right").mb-lg-0.mb-3
         img(src='@/assets/curso/temas/tema2/5.svg', alt='')
@@ -161,7 +161,7 @@
             br
             br
             |Esto con el objetivo de identificar necesidades esenciales por satisfacer o derechos inobservados y orientar acciones específicas, articuladas con los entes territoriales y las entidades respectivas, para promover el acceso a bienes y servicios, mejoras en las condiciones de vida de las familias y la garantía del goce efectivo de sus derechos.
-    p.mb-5(data-aos='fade-right') A continuación, se presentan las preguntas y opciones de respuesta del apartado Información ubiciación de la vivienda:        
+    p.mb-5(data-aos='fade-right') A continuación, se presentan las preguntas y opciones de respuesta del apartado Información ubicación de la vivienda:        
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -184,9 +184,10 @@
                 h4.mb-1 Información ubicación de la vivienda
                 p.mb-0 Se sugiere la consulta de este documento en el que se puede evidenciar con claridad todos los campos de este formulario de caracterización.
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://docs.google.com/document/d/1uZnIzJU0_WorBlLCKfkwbKVmgS8uBeTVv_Y0sG647Fs/edit?usp=sharing" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo1.pdf')" target="_blank" )
                   span.text-white.mb-0 Ver documento 
                   i.fas.fa-link(style="color: white")
+                  
     p.mb-5(data-aos='fade-right') La mayor parte de los campos relacionados con ubicación de la vivienda pueden ser diligenciados previamente de acuerdo con las indicaciones suministradas por la gerencia de operaciones, a partir del análisis de la base de vinculación y de los municipios o ciudades a atender. A continuación se presenta un ejemplo con el campo específico “Zona de ubicación”.
     .row.justify-content-center.mb-3
       .col-lg-8
@@ -218,7 +219,7 @@
                 h4.mb-1 Guía diligenciamiento ficha de caracterización sociofamiliar de la Dirección de Familias y Comunidades.
                 p.mb-0.text-small Se sugiere la consulta de este documento para la profundización de la temática. Este recurso también se encuentra como material de apoyo.
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://docs.google.com/document/d/1uZnIzJU0_WorBlLCKfkwbKVmgS8uBeTVv_Y0sG647Fs/edit?usp=sharing" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo2.pdf')" target="_blank" )
                   span.text-white.mb-0 Ver documento 
                   i.fas.fa-link(style="color: white")
     .row.justify-content-center.mb-5
@@ -326,8 +327,11 @@
           span Convenciones de relaciones o vínculos al interior de la familia
         img(src='@/assets/curso/temas/tema2/27.png', alt='Convenciones para la representación de los vínculos al interior de la familia en un genograma.')
         figcaption NOTA. Adaptado de Feixas, Muñoz y Montesano (2012)
-    p.mb-5(data-aos='fade-right') A manera de ejemplo, se realiza el genograma (figura 7) de una familia que actualmente está conformada por una pareja de dos hombres, uno de ellos -Camilo- tiene un hermano menor -Julián- y tras el fallecimiento de su madre -María-, Camilo queda como tutor legal de Julián y es llevado a vivir con su pareja.
-    .row.justify-content-center
+    p.mb-5(data-aos='fade-right') A manera de ejemplo, se realiza el genograma de una familia que actualmente está conformada por una pareja de dos hombres, uno de ellos -Camilo- tiene un hermano menor -Julián- y tras el fallecimiento de su madre -María-, Camilo queda como tutor legal de Julián y es llevado a vivir con su pareja.
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Figura 5.
+      span Ejemplo de Genograma
+    .row.justify-content-center.mb-5
       .col-lg-10 
         .tarjeta.border-3(style="border: 2px solid #333F4F ")
           .row.justify-content-start.align-items-center
@@ -355,13 +359,13 @@
                     | Cuñado: Antonio Villanueva, de 43 años, trabajador independiente.
             .col-lg-7
               img(src='@/assets/curso/temas/tema2/28.png', alt='').m-auto
-    .row.justify-content-center.mb-4
-      .col-lg-6
-        TarjetaAudio.color-acento-botones.mb-3(
-          texto="Ejemplo de Genograma"
-          :audio="require('@/assets/curso/temas/tema2/audio2.mp3')"
-          @audio-hover="mostrarIndicadorTarjetaAudio = false")
-    p.mb-5(data-aos='fade-right') A continuación, se explica la conformación familiar:
+    //- .row.justify-content-center.mb-4
+    //-   .col-lg-6
+    //-     TarjetaAudio.color-acento-botones.mb-3(
+    //-       texto="Ejemplo de Genograma"
+    //-       :audio="require('@/assets/curso/temas/tema2/audio2.mp3')"
+    //-       @audio-hover="mostrarIndicadorTarjetaAudio = false")
+    p.mb-5(data-aos='fade-right') El anterior genograma muestra un hogar cuyos integrantes se encuentran encerrados por la línea punteada verde. A continuación, se explica la conformación familiar:
     figure.mb-4
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/ew81C_EJ1Hk?si=R2ZZ1AuXll4LEqti" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -387,6 +391,9 @@
       br
       |Para el desarrollo de la caracterización y diagnóstico de las familias, los profesionales de acompañamiento familiar cuentan con una batería de instrumentos que les permite abordar diferentes perspectivas de las familias, como lo muestra el siguiente esquema:
     .mn(style="background-color:#b6d8e1 ").p-5.mb-5
+      .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+        h5 Figura 6.
+        span Tipos de mapas
       img(src='@/assets/curso/temas/tema2/30.svg', alt='Descripción de un mapa de pertenencia actual y potencial.').d-lg-block.d-none
       img(src='@/assets/curso/temas/tema2/31.svg', alt='Descripción de un mapa de pertenencia actual y potencial.').d-block.d-lg-none
     p.mb-5(data-aos='fade-right') Tanto el mapa de pertenencia actual como potencial permiten identificar el grado de satisfacción de cada uno de los integrantes de la familia con cada una de las redes identificadas y los vínculos que allí se representan, de forma que la familia y el operador podrán identificar acciones posibles para ampliar y modificar los vínculos y para resolver las situaciones problemáticas con cada una de las redes. 
@@ -403,9 +410,9 @@
                 br
                 |El diligenciamiento del mapa de pertenecía actual y potencial, permitirán avanzar en la comprensión de las dinámicas familiares y complementarán la aplicación del perfil de vulnerabilidad-generatividad.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://docs.google.com/document/d/1uZnIzJU0_WorBlLCKfkwbKVmgS8uBeTVv_Y0sG647Fs/edit?usp=sharing" target="_blank")
-                span.text-white.mb-0 Ver documento 
-                i.fas.fa-link(style="color: white")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo3.pdf')" target="_blank" )
+                  span.text-white.mb-0 Ver documento 
+                  i.fas.fa-link(style="color: white")
     Separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.5 Perfil de Vulneratividad – Generatividad
@@ -418,22 +425,15 @@
           br
           |A continuación se amplía más acerca del PVG.
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/31.png', alt='')
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema2/32.svg', alt='Texto que describa la imagen')
-      .tarjeta.p-3(x="43%" y="50%" numero="a" style="background-color: #d4d4d4")
-        .h5.mb-2 a.
-        p Este ejercicio se desarrolla a través de una entrevista semiestructurada con base en el desarrollo de preguntas generativas y reflexivas que permiten la construcción de narrativas familiares. 
-      .tarjeta.p-3(x="45%" y="35%" numero="b" style="background-color: #d4d4d4")
-        .h5.mb-2 b.
-        p Permite abordar los rituales cotidianos, los mitos y las ideas acerca de la vida que se expresan en la dinámica relacional y en el sentido y vivencia con el territorio, dando cuenta de las prioridades familiares y sus relaciones comunitarias, permitiendo establecer con estas los objetivos y escenarios de fortalecimiento familiar, comunitario y territorial. 
-      .tarjeta.p-3(x="55%" y="48%" numero="c" style="background-color: #d4d4d4")
-        .h5.mb-2 c.
-        p Las conversaciones generadas con el perfil permiten construir con las familias la dirección de cambio para el fortalecimiento familiar y propicia la métrica y narrativas para evaluar los resultados del proceso de acompañamiento.
-      .tarjeta.p-3(x="62%" y="50%" numero="d" style="background-color: #d4d4d4")
-        .h5.mb-2 d.
-        p Este instrumento ahonda en las situaciones y vivencias de la familia en lógica de su percepción y de lo que desean fortalecer o mejorar en su interior.
+      .col-lg-7
+        .tarjeta.p-4(style="background-color: #ffd357")
+          p #[b a.] Este ejercicio se desarrolla a través de una entrevista semiestructurada con base en el desarrollo de preguntas generativas y reflexivas que permiten la construcción de narrativas familiares. 
+          p #[b b.] Permite abordar los rituales cotidianos, los mitos y las ideas acerca de la vida que se expresan en la dinámica relacional y en el sentido y vivencia con el territorio, dando cuenta de las prioridades familiares y sus relaciones comunitarias, permitiendo establecer con estas los objetivos y escenarios de fortalecimiento familiar, comunitario y territorial. 
+          p #[b c.] Las conversaciones generadas con el perfil permiten construir con las familias la dirección de cambio para el fortalecimiento familiar y propicia la métrica y narrativas para evaluar los resultados del proceso de acompañamiento.
+          p #[b d.] Este instrumento ahonda en las situaciones y vivencias de la familia en lógica de su percepción y de lo que desean fortalecer o mejorar en su interior.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         p.mb-0 Los siete parámetros, se relacionan de manera directa con la hipótesis que sustenta el acompañamiento familiar de la Modalidad Mi familia, “Las situaciones que relacionan a niños, adolescentes y familias con el SNBF surgen en la confluencia simultánea de circunstancias de orden vincular, social, político y económico, las cuales ubican a las familias en un continuo de vulnerabilidad y de generatividad, dependiendo de cómo las familias se apropian de los recursos disponibles” (Guía de Orientaciones Metodologías Modalidad Mi Familia, 2023) y los instrumentos descritos (Ficha de caracterización y mapa de pertenencia actual y potencial).

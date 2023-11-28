@@ -21,7 +21,7 @@
     .cajon-b.color-primario.p-3.mb-5.arriba-derecha.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-11.mb-lg-0.mb-3
-          p.mb-0 Las cartillas metodológicas que orientan el desarrollo de las visitas y encuentros del programa Mi Familia tienen dos grandes partes, la primera presenta los principales conceptos asociados a la temática propuesta, los cuales debe tener presente el profesional de acompañamiento para realizar la visita o el encuentro y, en la segunda parte se detalla la metodología sugerida para el trabajo con las familias, la cual consta regularmente, de cuatro (4) momentos, tal y como se presenta en el gráfico.
+          p.mb-0 Las cartillas metodológicas que orientan el desarrollo de las visitas y encuentros del programa Mi Familia tienen dos grandes partes, la primera presenta los principales conceptos asociados a la temática propuesta, los cuales debe tener presente el profesional de acompañamiento para realizar la visita o el encuentro y, en la segunda parte se detalla la metodología sugerida para el trabajo con las familias, la cual consta regularmente, de cuatro (4) momentos, tal y como se presenta a continuación.
         .col-lg-1.col-3: img(src='@/assets/curso/temas/tema3/2.svg', alt='')
     .row.justify-content-center.mb-2
       .col-lg-5.mb-lg-0.mb-3
@@ -67,7 +67,7 @@
           img(src='@/assets/curso/temas/tema3/8.svg', alt='')
           .audio-editado
             TarjetaAudio.color-acento-botones.mb-3(
-            texto="Apartados de la ficha de caracterización Sociofamiliar"
+            texto="Flexibilizar la propuesta metodológica"
             :audio="require('@/assets/curso/temas/tema2/audio3.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false")
 

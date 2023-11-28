@@ -81,13 +81,13 @@
       h3.text-white EL PAF
     p.mb-5(data-aos='fade-right') El PAF debe generar una reflexión permanente sobre las dinámicas de interacción con las familias, teniendo cuidado de no perder de vista los siguientes aspectos: autorreferenciación (sus conocimientos, representaciones y perspectivas sobre la vida familiar), el enfoque apreciativo sobre las familias, y la promoción de la resiliencia.  
     .titulo-edit.color-primario.mb-4
-      h3 Autoreferenciación del PAF
+      h3 Autorreferenciación del PAF
     p.mb-5(data-aos='fade-right') En la implementación del programa Mi Familia, el PAF interactúa con las familias no solo haciendo uso de técnicas y herramientas, sino desde sus conocimientos, representaciones, emociones y perspectivas, que provienen de sus experiencias previas y de los procesos de formación y cualificación. Lo anterior se conoce como autorreferenciación y determina que el PAF privilegie ciertas observaciones, se detenga en ciertos detalles y pida ampliar algunas secuencias de eventos o de determinados aspectos de una situación; tal y como se detalla en cada punto.
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta.card-slyder.color-secundario.p-5.h-100
           .bg-white.rounded-pill.p-2.mb-4
-            h5.text-center.mb-0.mx-4 La autoreferenciación 
+            h5.text-center.mb-0.mx-4 La autorreferenciación 
           p Permite al PAF reconocer que sus conocimientos no son neutros, ni objetivos, pues en ellos están inmersas sus creencias, prejuicios y formas de comprender la realidad. Entonces, sus conocimientos y sus observaciones están impregnados de significados construidos a través de su historia de vida, los cuales se constituyen en filtros para observar y definir la realidad, eligiendo los focos de mirada y los aspectos que indaga.
           .tarjeta.card-slyder__portada.color-primario.p-5
             img(src='@/assets/curso/temas/tema1/9.svg', alt='' style="width: 230px").mb-4
@@ -139,7 +139,7 @@
             p Todas las familias en algún momento de su historia experimentan situaciones estresantes u otras en las cuales no cuentan con los recursos o apoyos suficientes para enfrentar los retos que se derivan de las transiciones vitales o de las crisis.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
-            .h6.mb-0 ICBF, 2020, p. 45
+            .h6.mb-0 (ICBF, 2020, p.45)
       .col-lg-3.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/14.svg', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/15.png', alt='')
