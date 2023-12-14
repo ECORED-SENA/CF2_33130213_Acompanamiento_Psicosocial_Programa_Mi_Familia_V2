@@ -19,7 +19,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/2.png', alt='')
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 De acuerdo con el Lineamiento Técnico del programa Mi Familia, el Profesional de Acompañamiento Familiar (PAF) es el principal recurso del acompañamiento psicosocial (ICBF, 2020); la utilidad del acompañamiento con cada familia depende de la capacidad de este para comprender y motivar los procesos de reflexión y de apuestas de cambio en las familias.
+        p.mb-0 De acuerdo con el Lineamiento Técnico del programa Mi Familia, el Profesional de Acompañamiento Familiar (PAF) es el principal recurso del acompañamiento psicosocial (ICBF, 2023); la utilidad del acompañamiento con cada familia depende de la capacidad de este para comprender y motivar los procesos de reflexión y de apuestas de cambio en las familias.
           br
           br
           |Por ello, es esencial que se consolide la confianza entre el PAF y las familias, para así construir un ambiente propicio donde surjan momentos y posibilidades de transformación, dinamizadas a través de los recursos metodológicos que ofrece el programa, teniendo en cuenta las cartillas y demás orientaciones.
