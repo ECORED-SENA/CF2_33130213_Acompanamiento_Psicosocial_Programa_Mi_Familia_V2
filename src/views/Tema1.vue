@@ -25,7 +25,7 @@
           |Por ello, es esencial que se consolide la confianza entre el PAF y las familias, para así construir un ambiente propicio donde surjan momentos y posibilidades de transformación, dinamizadas a través de los recursos metodológicos que ofrece el programa, teniendo en cuenta las cartillas y demás orientaciones.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 ¿Qué aspectos son relevantes en la comprensión de las familias por parte del PAF, desde los enfoques considerados por el programa Mi Familia?
+      h2 1.1 ¿Qué aspectos son relevantes en la comprensión de las familias por parte del PAF, desde los enfoques que considera Mi Familia?
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.svg', alt='')
       .col-lg-7(data-aos="fade-left"): p.mb-0 En el desarrollo del acompañamiento familiar, el PAF asume y construye una comprensión propia de las familias que incide en la forma cómo se acerca a ellas y propicia escenarios para el trabajo conjunto.
@@ -60,7 +60,7 @@
         .col-lg-4.col-7
           figure
             img(src='@/assets/curso/temas/tema1/6.png', alt='Texto que describa la imagen')
-    p.mb-5(data-aos='fade-right') Finalmente. de acuerdo con los Lineamientos Técnicos para la Inclusión y Atención de Familias. la comprensión a las familias no se da como resultado de una observación externa hecha por un experto, sino que implica una interacción constante con ellas.
+    p.mb-5(data-aos='fade-right') Finalmente, de acuerdo con los Lineamientos Técnicos para la Inclusión y Atención de Familias. La comprensión a las familias no se da como resultado de una observación externa hecha por un experto, sino que implica una interacción constante con ellas.
     .mn.px-5.py-4(style="background-color: #fff0c4 ")
       .row.justify-content-center.align-items-center
         .col-lg-1.col-3.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/7.svg', alt='')
@@ -97,7 +97,7 @@
         .tarjeta.card-slyder.color-secundario.p-5.h-100
           .bg-white.rounded-pill.p-2.mb-4
             h5.text-center.mb-0.mx-4 Los significados, creencias y prejuicios 
-          p Del PAF no son una limitante en el proceso, en la medida que los reconozca y los aproveche en el establecimiento de nuevas comprensiones para hacer una lectura integral de la familia y de su contexto, para identificar los elementos que guiarán su trabajo, y para especificar la forma de movilizar a la familia y los recursos de su contexto.
+          p Del PAF no son una limitante en el proceso, en la medida que los reconozca y los aproveche, en el establecimiento de nuevas comprensiones, para hacer una lectura integral de la familia y de su contexto, para identificar los elementos que guiarán su trabajo, y para especificar la forma de movilizar a la familia y los recursos de su contexto.
           .tarjeta.card-slyder__portada.color-primario.p-5
             img(src='@/assets/curso/temas/tema1/10.svg', alt='' style="width: 230px").mb-4
             .bg-white.rounded-pill.p-2

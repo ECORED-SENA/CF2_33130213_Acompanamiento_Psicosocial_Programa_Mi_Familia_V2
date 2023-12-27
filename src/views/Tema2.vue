@@ -167,7 +167,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2. 
           span Información Ubicación de la vivienda familiar
-        img(src='@/assets/curso/temas/tema2/11.png', alt='')
+        img(src='@/assets/curso/temas/tema2/11.png', alt='Captura de pantalla de la sección del formulario relacionada con la ubicación de la vivienda familiar.')
         figcaption NOTA. Tomado de ICBF (2021).
     .mn.px-5.py-4.mb-5(style="background-color: #fff2d0")
       .row.justify-content-center.align-items-center
@@ -202,7 +202,7 @@
               img(src='@/assets/curso/temas/tema2/15.svg', alt='Texto que describa la imagen')
           .tarjeta.bg-gris-claro.p-3(x="4.2%" y="57%" numero="a")
             .h5.mb-2 Resto
-            p Se debe marcar Resto cuando la vivienda esté ubicada en el Área rural o resto municipal que, de acuerdo con el DANE, se caracteriza por la disposición dispersa de viviendas y explotaciones agropecuarias existentes en ella. No cuenta con un trazado o nomenclatura de calles, carreteras, avenidas y demás; ni tampoco dispone, por lo general, de servicios públicos y de otro tipo de facilidades propias de las áreas urbanas. 
+            p Se debe marcar Resto cuando la vivienda esté ubicada en el área rural o resto municipal que, de acuerdo con el DANE, se caracteriza por la disposición dispersa de viviendas y explotaciones agropecuarias existentes en ella. No cuenta con un trazado o nomenclatura de calles, carreteras, avenidas y demás; ni tampoco dispone, por lo general, de servicios públicos y de otro tipo de facilidades propias de las áreas urbanas. 
           .tarjeta.bg-gris-claro.p-3(x="85%" y="18%" numero="b")
             .h5.mb-2 Cabecera Municipal (CM)
             p Es el área geográfica que está definida por un perímetro urbano. Corresponde al lugar en donde se ubica la sede administrativa de un municipio. 
@@ -358,7 +358,7 @@
                     i.fas.fa-circle.fa-xs
                     | Cuñado: Antonio Villanueva, de 43 años, trabajador independiente.
             .col-lg-7
-              img(src='@/assets/curso/temas/tema2/28.png', alt='').m-auto
+              img(src='@/assets/curso/temas/tema2/28.png', alt='Genograma de ejemplo.').m-auto
     //- .row.justify-content-center.mb-4
     //-   .col-lg-6
     //-     TarjetaAudio.color-acento-botones.mb-3(
@@ -415,7 +415,7 @@
                   i.fas.fa-link(style="color: white")
     Separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.5 Perfil de Vulneratividad – Generatividad
+      h2 2.5 Perfil de Vulneratividad y Generatividad
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p El Perfil de Vulnerabilidad/Generatividad permite ubicar a la familia continuamente entre necesidades y recursos, en un momento particular o ante un evento determinado. La información se organiza frente a siete (7) parámetros propuestos para el abordaje familiar; Topológico, Filiación, Sociocultural, Socioeconómico, Histórico – Evolutivo, Jurídico y Dinámico relacional (ICBF, 2007), y puede servir de referente para el diseño de una estrategia de acción que comprenda los factores que reducen la vulnerabilidad y aumentan la generatividad.

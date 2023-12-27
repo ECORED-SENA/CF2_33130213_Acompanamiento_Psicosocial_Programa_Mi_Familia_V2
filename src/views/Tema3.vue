@@ -63,7 +63,7 @@
       .col-lg-7
         .contenido-imagen
           .cuadro-texto.p-4(style="background-color: #ffd357")
-            p Por ejemplo, en la sesión inicial "Zarpando a la Aventura" se proponen metáforas que refieren a un viaje en barco por el mar, estas se podrían ajustar a viajes por el rio o caminatas, en los casos en los cuales la referencia al mar no resulte tan cercana para las familias con las que se trabaja.
+            p Por ejemplo, en la sesión inicial "Zarpando a la Aventura" se proponen metáforas que refieren a un viaje en barco por el mar, estas se podrían ajustar a viajes por el río o caminatas, en los casos en los cuales la referencia al mar no resulte tan cercana para las familias con las que se trabaja.
           img(src='@/assets/curso/temas/tema3/8.svg', alt='')
           .audio-editado
             TarjetaAudio.color-acento-botones.mb-3(
